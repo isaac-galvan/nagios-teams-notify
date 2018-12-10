@@ -49,3 +49,6 @@ define contact {
     service_notification_commands	notify_teams
     _WEBHOOKURL https://outlook.office.com/webhook/2bfd8a0a-1d45-4ea6-a736-db25a6be5c95@44467e6f-462c-4ea2-823f-7800de5434e3/IncomingWebhook/2863b6ee982c4c51af6e96852289c0c6/ba913a1a-4779-41ca-96af-93ed0869be1b
 }
+```
+
+Then add the contact to an existing object or contact group and reload your configuration.
