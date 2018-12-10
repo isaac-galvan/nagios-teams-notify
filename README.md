@@ -52,3 +52,5 @@ define contact {
 ```
 
 Then add the contact to an existing object or contact group and reload your configuration.
+
+Create additional contacts with their own `_WEBHOOKURL` custom variable macro for each Teams channel needing notifications.
