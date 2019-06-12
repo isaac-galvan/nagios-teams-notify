@@ -51,7 +51,8 @@ def create_message(url, notification_type, host, service, alert, output, long_me
     message['@type'] = 'MessageCard'
     #message['@type'] = 'ActionCard'
     message['@context'] = 'https://schema.org/extensions'
-    message['potentialAction'] = action
+    if notification_type != 'ACKNOWLEDGEMENT':
+      message['potentialAction'] = action
 
     return message
 
